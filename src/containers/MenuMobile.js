@@ -176,21 +176,11 @@ const MenuMobile = ({ genres, staticCategories, selected }) => {
         {renderStatic(staticCategories, selected, setisOpened)}
         <Heading>Genres</Heading>
         {renderGenres(genres, selected, setisOpened)}
-        <StyledCoffe
-          target="_blank"
-          rel="noopener noreferrer"
-          href="https://www.buymeacoffee.com/fidalgodev"
-        >
-          <img
-            src="https://www.buymeacoffee.com/assets/img/BMC-btn-logo.svg"
-            alt="Buy me a coffee"
-          />
-          <span style={{ marginLeft: '5px' }}>Buy me a coffee</span>
-        </StyledCoffe>
+        
         <CopyRight mobile={true}>
           Copyright ©
-          <StyledLink href="https://www.github.com/fidalgodev">
-            Fidalgo
+          <StyledLink href="https://www.github.com/mahdiiithg">
+            Mahdi Tahavorgar
           </StyledLink>
         </CopyRight>
         <Svg
